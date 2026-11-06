@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <!-- Rounded container background -->
+  <rect width="64" height="64" rx="14" fill="#234E3E"/>
+  <!-- Stylized nest / sheltering home icon with leaf detail -->
+  <path d="M32 14L16 27V46C16 48.2091 17.7909 50 20 50H44C46.2091 50 48 48.2091 48 46V27L32 14Z" stroke="#FAF9F6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Interior leaf / nest element -->
+  <path d="M32 23C32 23 24 30 24 37C24 41.4183 27.5817 45 32 45C36.4183 45 40 41.4183 40 37C40 30 32 23 32 23Z" fill="#C49A45" fill-opacity="0.9"/>
+  <path d="M32 26V43" stroke="#234E3E" stroke-width="2" stroke-linecap="round"/>
+</svg>

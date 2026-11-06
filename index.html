@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NeatNest Home Care delivers dependable, detail-oriented residential home cleaning for busy homeowners and working professionals. Explore our services and request a tailored quote.">
+  <meta name="keywords" content="home cleaning, residential cleaning, deep cleaning, regular housekeeping, move-in cleaning, NeatNest Home Care">
+  <meta name="author" content="Portfolio Demonstration Project">
+  <meta name="theme-color" content="#234E3E">
+
+  <!-- Open Graph / Meta sharing -->
+  <meta property="og:title" content="NeatNest Home Care | Residential Cleaning Services">
+  <meta property="og:description" content="Thoughtful, detail-oriented home cleaning tailored for calm, comfortable living spaces.">
+  <meta property="og:type" content="website">
+
+  <title>NeatNest Home Care | Thoughtful Residential Cleaning Services</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Typography: Plus Jakarta Sans & Playfair Display -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Accessibility: Skip to Main Content -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Portfolio Demonstration Notice Banner -->
+  <aside class="portfolio-banner" aria-label="Portfolio Demonstration Notice">
+    <div class="container portfolio-banner-inner">
+      <span class="badge-demo">Portfolio Demo</span>
+      <p class="portfolio-banner-text">
+        Fictional concept website built as a web design &amp; frontend development showcase. No real commercial cleaning operations are conducted.
+      </p>
+      <a href="#disclaimer" class="portfolio-banner-link">View Demo Details</a>
+    </div>
+  </aside>
+
+  <!-- Site Header & Navigation -->
+  <header class="site-header" id="header">
+    <div class="container header-container">
+      <!-- Brand Wordmark -->
+      <a href="#hero" class="brand-link" aria-label="NeatNest Home Care - Return to home">
+        <span class="brand-icon" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="28" height="28" fill="none">
+            <rect width="32" height="32" rx="8" fill="#234E3E"/>
+            <path d="M16 7L8 14V23C8 24.1 8.9 25 10 25H22C23.1 25 24 24.1 24 23V14L16 7Z" stroke="#FAF9F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M16 12C16 12 12 16 12 19.5C12 21.7 13.8 23.5 16 23.5C18.2 23.5 20 21.7 20 19.5C20 16 16 12 16 12Z" fill="#C49A45"/>
+          </svg>
+        </span>
+        <span class="brand-text">
+          <span class="brand-name">NeatNest</span>
+          <span class="brand-tagline">Home Care</span>
+        </span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link">Home</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#why-us" class="nav-link">Why NeatNest</a></li>
+          <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Action CTA -->
+      <div class="header-actions">
+        <a href="#contact" class="btn btn-primary btn-sm header-cta">Request a Quote</a>
+        
+        <!-- Mobile Menu Toggle Button -->
+        <button type="button" 
+                class="mobile-nav-toggle" 
+                id="mobile-nav-toggle" 
+                aria-expanded="false" 
+                aria-controls="mobile-nav-menu" 
+                aria-label="Open navigation menu">
+          <span class="hamburger-box" aria-hidden="true">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-nav-drawer" id="mobile-nav-menu" aria-hidden="true" inert>
+      <div class="mobile-nav-overlay" id="mobile-nav-backdrop" tabindex="-1"></div>
+      <div class="mobile-nav-panel">
+        <div class="mobile-nav-header">
+          <div class="brand-text">
+            <span class="brand-name">NeatNest</span>
+            <span class="brand-tagline">Home Care</span>
+          </div>
+          <button type="button" class="mobile-nav-close" id="mobile-nav-close" aria-label="Close navigation menu">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+        <nav class="mobile-nav-body" aria-label="Mobile primary navigation">
+          <ul class="mobile-nav-list">
+            <li><a href="#hero" class="mobile-nav-link">Home</a></li>
+            <li><a href="#services" class="mobile-nav-link">Services</a></li>
+            <li><a href="#why-us" class="mobile-nav-link">Why NeatNest</a></li>
+            <li><a href="#how-it-works" class="mobile-nav-link">How It Works</a></li>
+            <li><a href="#about" class="mobile-nav-link">About</a></li>
+            <li><a href="#faq" class="mobile-nav-link">FAQ</a></li>
+            <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="mobile-nav-footer">
+          <a href="#contact" class="btn btn-primary btn-block mobile-drawer-cta">Request a Quote</a>
+          <p class="mobile-nav-meta">Residential cleaning tailored for comfort.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Landmark -->
+  <main id="main-content">
+    
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero" aria-labelledby="hero-title">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-pill">
+            <span class="pill-dot" aria-hidden="true"></span>
+            <span>Dependable Residential Housekeeping</span>
+          </div>
+          <h1 id="hero-title" class="hero-title">
+            Thoughtful Home Cleaning for a Calm, Comfortable Living Space.
+          </h1>
+          <p class="hero-lead">
+            NeatNest Home Care provides thorough, respectful residential cleaning designed for busy homeowners, working professionals, and families. Reclaim your free hours while we take care of your living spaces.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary btn-lg">Request an Estimate</a>
+            <a href="#services" class="btn btn-outline btn-lg">Explore Services</a>
+          </div>
+          <!-- Editorial Assurance Points -->
+          <ul class="hero-commitments" aria-label="Service highlights">
+            <li class="commitment-item">
+              <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor" width="18" height="18" aria-hidden="true">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+              </svg>
+              <span>Personalized Room Checklists</span>
+            </li>
+            <li class="commitment-item">
+              <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor" width="18" height="18" aria-hidden="true">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+              </svg>
+              <span>Respectful Care of Surfaces</span>
+            </li>
+            <li class="commitment-item">
+              <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor" width="18" height="18" aria-hidden="true">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+              </svg>
+              <span>Clear, Upfront Communication</span>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="hero-media">
+          <div class="hero-image-wrapper">
+            <img src="assets/images/hero-living-room.jpg" 
+                 alt="Sunlit, neatly arranged modern living room with comfortable seating, clean hardwood floors, and healthy houseplants" 
+                 class="hero-img" 
+                 width="1200" 
+                 height="800"
+                 fetchpriority="high">
+            <div class="hero-floating-card">
+              <div class="floating-badge-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                </svg>
+              </div>
+              <div>
+                <p class="floating-card-title">Residential Care Standard</p>
+                <p class="floating-card-subtitle">Dedicated, consistent routines for your peace of mind.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section section-padding" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-eyebrow">Our Offerings</span>
+          <h2 id="services-title" class="section-title">Carefully Differentiated Cleaning Services</h2>
+          <p class="section-lead">
+            Every household has different cleaning priorities. We offer structured service options tailored to regular upkeep, seasonal deep cleans, or property transitions.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service 1: Regular Home Cleaning -->
+          <article class="service-card" aria-labelledby="service-regular-title">
+            <div class="service-image-box">
+              <img src="assets/images/service-regular.jpg" 
+                   alt="Spotlessly dusted living area and polished furniture" 
+                   class="service-img" 
+                   loading="lazy" 
+                   width="600" 
+                   height="400">
+              <span class="service-category-tag">Recurring Maintenance</span>
+            </div>
+            <div class="service-body">
+              <div class="service-icon-heading">
+                <span class="service-icon" aria-hidden="true">
+                  <!-- Broom / home upkeep icon -->
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                  </svg>
+                </span>
+                <h3 id="service-regular-title" class="service-title">Regular Home Cleaning</h3>
+              </div>
+              <p class="service-desc">
+                Consistent housekeeping to keep your home continuously fresh and welcoming. Ideal for ongoing maintenance on weekly, fortnightly, or monthly visits.
+              </p>
+              <div class="service-inclusions">
+                <h4 class="inclusions-heading">Key Focus Areas:</h4>
+                <ul class="inclusions-list">
+                  <li>Dusting all reachable surfaces, shelves, and tabletops</li>
+                  <li>Vacuuming carpets, rugs, and mopping hard floors</li>
+                  <li>Bathroom sanitization, mirrors, and basin polishing</li>
+                  <li>Kitchen countertops, cooktop wipe-down, and sink care</li>
+                  <li>Emptying household bins and neat linen straightening</li>
+                </ul>
+              </div>
+              <div class="service-card-footer">
+                <button type="button" 
+                        class="btn btn-outline btn-block select-service-btn" 
+                        data-service="regular">
+                  Enquire for Regular Cleaning
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Service 2: Deep Cleaning -->
+          <article class="service-card" aria-labelledby="service-deep-title">
+            <div class="service-image-box">
+              <img src="assets/images/service-deep.jpg" 
+                   alt="Meticulously sanitized and detailed home surfaces" 
+                   class="service-img" 
+                   loading="lazy" 
+                   width="600" 
+                   height="400">
+              <span class="service-category-tag">Comprehensive Reset</span>
+            </div>
+            <div class="service-body">
+              <div class="service-icon-heading">
+                <span class="service-icon" aria-hidden="true">
+                  <!-- Sparkles / Deep clean icon -->
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+                  </svg>
+                </span>
+                <h3 id="service-deep-title" class="service-title">Deep Cleaning Service</h3>
+              </div>
+              <p class="service-desc">
+                An intensive, top-to-bottom reset targeting built-up dust, grease, grime, and neglected corners that regular daily cleaning does not reach.
+              </p>
+              <div class="service-inclusions">
+                <h4 class="inclusions-heading">Key Focus Areas:</h4>
+                <ul class="inclusions-list">
+                  <li>Detailed wiping of baseboards, door frames, and switches</li>
+                  <li>Interior window sills, tracks, and glass wipe-down</li>
+                  <li>Deep descaling of bathroom tile grout, screens, and taps</li>
+                  <li>Degreasing range hoods, exterior cabinetry, and splashbacks</li>
+                  <li>Behind and beneath reachable lightweight furniture</li>
+                </ul>
+              </div>
+              <div class="service-card-footer">
+                <button type="button" 
+                        class="btn btn-outline btn-block select-service-btn" 
+                        data-service="deep">
+                  Enquire for Deep Cleaning
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Service 3: Move-In / Move-Out Cleaning -->
+          <article class="service-card" aria-labelledby="service-move-title">
+            <div class="service-image-box">
+              <img src="assets/images/service-move.jpg" 
+                   alt="Immaculate empty residential property ready for occupancy" 
+                   class="service-img" 
+                   loading="lazy" 
+                   width="600" 
+                   height="400">
+              <span class="service-category-tag">Transition Ready</span>
+            </div>
+            <div class="service-body">
+              <div class="service-icon-heading">
+                <span class="service-icon" aria-hidden="true">
+                  <!-- Moving box / transition icon -->
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="21 8 21 21 3 21 3 8"></polyline>
+                    <rect x="1" y="3" width="22" height="5"></rect>
+                    <line x1="10" y1="12" x2="14" y2="12"></line>
+                  </svg>
+                </span>
+                <h3 id="service-move-title" class="service-title">Move-In / Move-Out Cleaning</h3>
+              </div>
+              <p class="service-desc">
+                Specialized cleaning designed for vacant properties before unpacking or handing keys over. Ensures spaces are immaculately prepared for new occupants.
+              </p>
+              <div class="service-inclusions">
+                <h4 class="inclusions-heading">Key Focus Areas:</h4>
+                <ul class="inclusions-list">
+                  <li>Complete interior cleaning of empty cupboards and drawers</li>
+                  <li>Sanitizing all wardrobe shelving and closet interiors</li>
+                  <li>Wall spot-cleaning and scuff removal where appropriate</li>
+                  <li>Comprehensive deep sanitization of all bathrooms</li>
+                  <li>Full vacuuming, edging, and mopping of bare floors</li>
+                </ul>
+              </div>
+              <div class="service-card-footer">
+                <button type="button" 
+                        class="btn btn-outline btn-block select-service-btn" 
+                        data-service="move">
+                  Enquire for Move Cleaning
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Service 4: Kitchen & Bathroom Detailing -->
+          <article class="service-card" aria-labelledby="service-kitchen-title">
+            <div class="service-image-box">
+              <img src="assets/images/service-kitchen.jpg" 
+                   alt="Gleaming kitchen countertops and polished stainless appliances" 
+                   class="service-img" 
+                   loading="lazy" 
+                   width="600" 
+                   height="400">
+              <span class="service-category-tag">High-Traffic Focus</span>
+            </div>
+            <div class="service-body">
+              <div class="service-icon-heading">
+                <span class="service-icon" aria-hidden="true">
+                  <!-- Droplets / hygiene icon -->
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
+                  </svg>
+                </span>
+                <h3 id="service-kitchen-title" class="service-title">Kitchen &amp; Bathroom Detail</h3>
+              </div>
+              <p class="service-desc">
+                Targeted hygiene and descaling for the most demanding moisture and food preparation spaces in the home, restoring sparkle and cleanliness.
+              </p>
+              <div class="service-inclusions">
+                <h4 class="inclusions-heading">Key Focus Areas:</h4>
+                <ul class="inclusions-list">
+                  <li>Oven door exterior, stovetop grates, and extractor filter hoods</li>
+                  <li>Microwave interior and exterior appliance shine</li>
+                  <li>Limescale and soap scum removal from shower screens</li>
+                  <li>High-grade sanitization of sinks, faucets, and toilets</li>
+                  <li>Tile splashbacks and grout line detailed scrubbing</li>
+                </ul>
+              </div>
+              <div class="service-card-footer">
+                <button type="button" 
+                        class="btn btn-outline btn-block select-service-btn" 
+                        data-service="kitchen-bath">
+                  Enquire for Kitchen &amp; Bath
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="services-note text-center">
+          <p class="text-muted">
+            <em>Need a specialized routine or partial cleaning? Custom room checklists are arranged directly during your quote consultation.</em>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose NeatNest (Service Principles) -->
+    <section class="why-us-section section-padding bg-subtle" id="why-us" aria-labelledby="why-title">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-eyebrow">Our Guiding Standards</span>
+          <h2 id="why-title" class="section-title">Why Homeowners Trust Our Care</h2>
+          <p class="section-lead">
+            We believe dependable home care comes down to respect, transparency, and methodical attention to the details that make a home truly comfortable.
+          </p>
+        </div>
+
+        <div class="principles-grid">
+          <!-- Principle 1 -->
+          <div class="principle-card">
+            <div class="principle-number" aria-hidden="true">01</div>
+            <div class="principle-icon-wrapper" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="8" x2="12" y2="12"></line>
+                <line x1="12" y1="16" x2="12.01" y2="16"></line>
+              </svg>
+            </div>
+            <h3 class="principle-title">Unrushed Attention to Detail</h3>
+            <p class="principle-text">
+              We focus on thoroughness over hasty speed. By prioritizing consistent quality on every pass, we make sure high-touch surfaces, overlooked edges, and baseboards receive the care they deserve.
+            </p>
+          </div>
+
+          <!-- Principle 2 -->
+          <div class="principle-card">
+            <div class="principle-number" aria-hidden="true">02</div>
+            <div class="principle-icon-wrapper" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+              </svg>
+            </div>
+            <h3 class="principle-title">Tailored, Flexible Checklists</h3>
+            <p class="principle-text">
+              No two residences have identical demands. We coordinate your checklist directly with you, allowing you to prioritize high-traffic rooms, pet areas, or quiet work-from-home studios according to your schedule.
+            </p>
+          </div>
+
+          <!-- Principle 3 -->
+          <div class="principle-card">
+            <div class="principle-number" aria-hidden="true">03</div>
+            <div class="principle-icon-wrapper" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+              </svg>
+            </div>
+            <h3 class="principle-title">Clear, Direct Communication</h3>
+            <p class="principle-text">
+              You will always know what to expect. We provide transparent estimates, prompt notifications, realistic arrival windows, and straightforward follow-up without confusing fine print or surprise add-ons.
+            </p>
+          </div>
+
+          <!-- Principle 4 -->
+          <div class="principle-card">
+            <div class="principle-number" aria-hidden="true">04</div>
+            <div class="principle-icon-wrapper" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+              </svg>
+            </div>
+            <h3 class="principle-title">Careful Treatment of Your Space</h3>
+            <p class="principle-text">
+              Your home is your sanctuary. We treat family furniture, personal belongings, delicate stone finishes, and floorings with the utmost consideration, utilizing surface-safe, respectful cleaning methods.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-section section-padding" id="how-it-works" aria-labelledby="how-title">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-eyebrow">Simple &amp; Transparent</span>
+          <h2 id="how-title" class="section-title">How Arranging Service Works</h2>
+          <p class="section-lead">
+            A three-step consultation process designed to establish your exact requirements before any cleaning begins.
+          </p>
+        </div>
+
+        <div class="process-steps">
+          <!-- Step 1 -->
+          <div class="step-card">
+            <div class="step-badge">Step 01</div>
+            <div class="step-icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path>
+                <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
+              </svg>
+            </div>
+            <h3 class="step-title">Tell Us What You Need</h3>
+            <p class="step-text">
+              Complete our straightforward enquiry form or send a WhatsApp message specifying your approximate home size, preferred service type, and key focus rooms.
+            </p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="step-card">
+            <div class="step-badge">Step 02</div>
+            <div class="step-icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+            </div>
+            <h3 class="step-title">Discuss Your Requirements</h3>
+            <p class="step-text">
+              We review your details, clarify surface sensitivities, access arrangements, and any pet accommodations, then provide a transparent, personalized estimate.
+            </p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="step-card">
+            <div class="step-badge">Step 03</div>
+            <div class="step-icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+            </div>
+            <h3 class="step-title">Arrange the Next Steps</h3>
+            <p class="step-text">
+              Once you are completely satisfied with the proposed plan and visit duration, we mutually confirm a scheduled slot for your home's initial visit.
+            </p>
+          </div>
+        </div>
+
+        <!-- Clarity Notice -->
+        <div class="process-notice text-center">
+          <p class="process-notice-text">
+            <strong>Clear Expectation:</strong> Submitting an enquiry or quote request does not automatically confirm a booking or trigger any payment. Every appointment is arranged collaboratively after requirements are discussed.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section section-padding bg-subtle" id="about" aria-labelledby="about-title">
+      <div class="container about-container">
+        <div class="about-media">
+          <div class="about-image-wrapper">
+            <img src="assets/images/about-home.jpg" 
+                 alt="Warm and tidy domestic interior highlighting tranquil order and soft natural light" 
+                 class="about-img" 
+                 loading="lazy" 
+                 width="800" 
+                 height="600">
+            <div class="about-quote-box">
+              <p class="about-quote-text">
+                "A clean home provides more than tidy surfaces — it creates mental calm and space to unwind."
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <span class="section-eyebrow">About NeatNest</span>
+          <h2 id="about-title" class="section-title">Designed Around Restful Living Spaces</h2>
+          <p class="about-text">
+            <strong>NeatNest Home Care</strong> was conceived as a residential housekeeping concept centered on one straightforward ideal: helping busy people enjoy comfortable, healthy living environments without spending their precious weekend hours scrubbing.
+          </p>
+          <p class="about-text">
+            Modern lifestyles demand flexibility. Whether balancing demanding office hours, remote projects, or family commitments, keeping up with deep dust and grime can feel relentless. We believe in providing dependable, considerate domestic assistance that lets you breathe easy the moment you step through your front door.
+          </p>
+          <div class="about-values">
+            <div class="about-value-item">
+              <h3 class="value-title">Safe &amp; Mindful Products</h3>
+              <p class="value-text">We advocate for gentle, effective cleaning agents that preserve sensitive natural stone, hardwood finishes, and indoor air freshness.</p>
+            </div>
+            <div class="about-value-item">
+              <h3 class="value-title">Consistent Household Respect</h3>
+              <p class="value-text">We treat personal possessions, family privacy, and security protocols with serious, understated professionalism at all times.</p>
+            </div>
+          </div>
+          <div class="about-cta-row">
+            <a href="#contact" class="btn btn-primary">Start a Conversation</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Client Care Standards & FAQ Section -->
+    <section class="faq-section section-padding" id="faq" aria-labelledby="faq-title">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-eyebrow">Practical Details</span>
+          <h2 id="faq-title" class="section-title">Frequently Asked Questions</h2>
+          <p class="section-lead">
+            Common questions regarding service scope, home access, supplies, and how we coordinate with homeowners.
+          </p>
+        </div>
+
+        <div class="faq-accordion" id="faq-accordion">
+          <!-- FAQ 1 -->
+          <details class="faq-item" open>
+            <summary class="faq-question">
+              <span>Do you bring your own cleaning supplies and equipment?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>
+                In a typical arrangement, standard cleaning equipment, microfiber cloths, and general detergents are provided. If your home features specialized finishes (such as unsealed natural marble, vintage hardwood, or specialty fixtures) or you prefer specific eco-certified brands, we gladly adapt our routine to your designated products.
+              </p>
+            </div>
+          </details>
+
+          <!-- FAQ 2 -->
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>Do I need to be at home during the cleaning visit?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>
+                That is entirely up to your personal comfort. Many clients prefer being present during the first visit to walk through specific focus areas and preferences. For ongoing routines, key lockboxes, concierge access, or scheduled entry windows can be arranged securely.
+              </p>
+            </div>
+          </details>
+
+          <!-- FAQ 3 -->
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>How are quotes and estimates determined?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>
+                Estimates are based on the square footage, number of bedrooms and bathrooms, general property condition, and whether you require regular upkeep or an in-depth restorative clean. This ensures you only pay for what your home actually requires rather than generic flat rates.
+              </p>
+            </div>
+          </details>
+
+          <!-- FAQ 4 -->
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>Are services pet-friendly?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>
+                Yes. We love pets and understand that cats and dogs are part of the family. During our initial consultation, we note any pet temperaments, doors that must remain shut, and preferences regarding vacuum noise or pet-safe cleaning agents.
+              </p>
+            </div>
+          </details>
+
+          <!-- FAQ 5 -->
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>Can I customize the rooms or tasks for each visit?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>
+                Yes. Our priority checklists are completely flexible. If you would like us to dedicate extra time to deep scrubbing the kitchen oven one week and focus on guest bedrooms the next, simply let us know in advance of your visit.
+              </p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Enquiry Section -->
+    <section class="contact-section section-padding bg-subtle" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-eyebrow">Get in Touch</span>
+          <h2 id="contact-title" class="section-title">Request an Estimate or Enquire</h2>
+          <p class="section-lead">
+            Let's discuss how we can help maintain your home. Fill out our simple enquiry form below or connect directly via WhatsApp.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Column 1: Direct Contact & WhatsApp Box -->
+          <div class="contact-info-card">
+            <h3 class="contact-card-title">Direct Enquiries</h3>
+            <p class="contact-card-desc">
+              Have a quick question or need advice on which service fits your current situation? Reach out directly via our primary channels.
+            </p>
+
+            <!-- WhatsApp Feature Box -->
+            <div class="whatsapp-card" id="whatsapp-card">
+              <div class="whatsapp-header">
+                <span class="whatsapp-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                    <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M9.53 7.32C9.35 7.32 9.07 7.38 8.82 7.65C8.58 7.93 7.89 8.58 7.89 9.9C7.89 11.23 8.86 12.5 9 12.69C9.13 12.87 10.9 15.6 13.63 16.78C14.28 17.06 14.79 17.23 15.19 17.36C15.85 17.57 16.44 17.54 16.92 17.47C17.45 17.39 18.55 16.8 18.78 16.15C19.01 15.5 19.01 14.95 18.94 14.83C18.87 14.72 18.71 14.66 18.46 14.53C18.21 14.41 16.99 13.81 16.76 13.72C16.53 13.64 16.37 13.6 16.2 13.85C16.04 14.1 15.57 14.66 15.43 14.83C15.29 14.99 15.14 15.01 14.89 14.89C14.64 14.76 13.85 14.5 12.91 13.66C12.18 13.01 11.68 12.21 11.54 11.96C11.4 11.71 11.52 11.58 11.65 11.45C11.76 11.34 11.9 11.16 12.02 11.02C12.15 10.88 12.19 10.77 12.27 10.61C12.35 10.45 12.31 10.31 12.25 10.18C12.19 10.06 11.73 8.92 11.54 8.46C11.35 8.01 11.17 8.07 11.03 8.07H10.59C10.43 8.07 10.18 8.13 9.97 8.36C9.76 8.58 9.53 7.32 9.53 7.32Z"/>
+                  </svg>
+                </span>
+                <div>
+                  <h4 class="whatsapp-title">Instant WhatsApp Enquiry</h4>
+                  <p class="whatsapp-subtitle">Fastest way to discuss availability &amp; scope.</p>
+                </div>
+              </div>
+              
+              <div class="whatsapp-body">
+                <p class="whatsapp-text">
+                  Send our team your home details or photos of specific rooms for a rapid preliminary review.
+                </p>
+                <div class="whatsapp-placeholder-note">
+                  <span class="demo-tag">Demo Number</span>
+                  <code class="demo-phone" id="demo-phone-display">+91 91XXXXXXXXXX</code>
+                </div>
+                <button type="button" 
+                        class="btn btn-whatsapp btn-block" 
+                        id="whatsapp-cta-btn" 
+                        aria-label="Enquire on WhatsApp (Demo)">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M9.53 7.32C9.35 7.32 9.07 7.38 8.82 7.65C8.58 7.93 7.89 8.58 7.89 9.9C7.89 11.23 8.86 12.5 9 12.69C9.13 12.87 10.9 15.6 13.63 16.78C14.28 17.06 14.79 17.23 15.19 17.36C15.85 17.57 16.44 17.54 16.92 17.47C17.45 17.39 18.55 16.8 18.78 16.15C19.01 15.5 19.01 14.95 18.94 14.83C18.87 14.72 18.71 14.66 18.46 14.53C18.21 14.41 16.99 13.81 16.76 13.72C16.53 13.64 16.37 13.6 16.2 13.85C16.04 14.1 15.57 14.66 15.43 14.83C15.29 14.99 15.14 15.01 14.89 14.89C14.64 14.76 13.85 14.5 12.91 13.66C12.18 13.01 11.68 12.21 11.54 11.96C11.4 11.71 11.52 11.58 11.65 11.45C11.76 11.34 11.9 11.16 12.02 11.02C12.15 10.88 12.19 10.77 12.27 10.61C12.35 10.45 12.31 10.31 12.25 10.18C12.19 10.06 11.73 8.92 11.54 8.46C11.35 8.01 11.17 8.07 11.03 8.07H10.59C10.43 8.07 10.18 8.13 9.97 8.36C9.76 8.58 9.53 7.32 9.53 7.32Z"/>
+                  </svg>
+                  <span>Connect via WhatsApp</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Additional Contact Indicators -->
+            <div class="contact-details-list">
+              <div class="contact-detail-item">
+                <span class="detail-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </span>
+                <div>
+                  <span class="detail-label">Email Consultation:</span>
+                  <span class="detail-value">enquiries@neatnest-demo.local</span>
+                </div>
+              </div>
+              <div class="contact-detail-item">
+                <span class="detail-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                </span>
+                <div>
+                  <span class="detail-label">Consultation Hours:</span>
+                  <span class="detail-value">Mon – Sat: 8:00 AM – 6:00 PM</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-demo-disclaimer-note">
+              <p>
+                <strong>Developer Notice:</strong> This contact block is configured with a placeholder WhatsApp number. In <code>script.js</code>, configure the real business number in one variable to enable automatic live chat.
+              </p>
+            </div>
+          </div>
+
+          <!-- Column 2: Interactive Quote & Contact Form -->
+          <div class="contact-form-wrapper">
+            <div class="form-header">
+              <h3 class="form-title">Request a Tailored Cleaning Quote</h3>
+              <p class="form-subtitle">Share your home details below. We typically respond within 24 business hours.</p>
+            </div>
+
+            <!-- Form Element -->
+            <form id="quote-form" class="quote-form" novalidate aria-describedby="form-instructions">
+              <p id="form-instructions" class="sr-only">
+                All fields marked with an asterisk are required. The form validates your input on submit.
+              </p>
+
+              <!-- Form status live region for screen readers -->
+              <div id="form-live-status" class="sr-only" role="status" aria-live="polite"></div>
+
+              <!-- Full Name -->
+              <div class="form-group" id="group-name">
+                <label for="contact-name" class="form-label">
+                  Your Full Name <span class="required-star" aria-hidden="true">*</span>
+                </label>
+                <input type="text" 
+                       id="contact-name" 
+                       name="name" 
+                       class="form-control" 
+                       placeholder="e.g. Sarah Jenkins" 
+                       autocomplete="name" 
+                       required 
+                       aria-required="true">
+                <span class="form-error-msg" id="error-name" role="alert" aria-live="assertive"></span>
+              </div>
+
+              <!-- Contact Email & Phone Grid -->
+              <div class="form-row">
+                <!-- Email -->
+                <div class="form-group" id="group-email">
+                  <label for="contact-email" class="form-label">
+                    Email Address <span class="required-star" aria-hidden="true">*</span>
+                  </label>
+                  <input type="email" 
+                         id="contact-email" 
+                         name="email" 
+                         class="form-control" 
+                         placeholder="sarah@example.com" 
+                         autocomplete="email" 
+                         required 
+                         aria-required="true">
+                  <span class="form-error-msg" id="error-email" role="alert" aria-live="assertive"></span>
+                </div>
+
+                <!-- Phone -->
+                <div class="form-group" id="group-phone">
+                  <label for="contact-phone" class="form-label">
+                    Phone Number <span class="optional-tag">(Optional)</span>
+                  </label>
+                  <input type="tel" 
+                         id="contact-phone" 
+                         name="phone" 
+                         class="form-control" 
+                         placeholder="e.g. +91 98765 43210" 
+                         autocomplete="tel">
+                  <span class="form-error-msg" id="error-phone" role="alert" aria-live="assertive"></span>
+                </div>
+              </div>
+
+              <!-- Service & Property Grid -->
+              <div class="form-row">
+                <!-- Service Required -->
+                <div class="form-group" id="group-service">
+                  <label for="contact-service" class="form-label">
+                    Service Interest <span class="required-star" aria-hidden="true">*</span>
+                  </label>
+                  <select id="contact-service" name="service" class="form-select" required aria-required="true">
+                    <option value="" disabled selected>Select a cleaning service...</option>
+                    <option value="regular">Regular Home Cleaning</option>
+                    <option value="deep">Deep Cleaning Service</option>
+                    <option value="move">Move-In / Move-Out Cleaning</option>
+                    <option value="kitchen-bath">Kitchen &amp; Bathroom Detail</option>
+                    <option value="general">General Enquiry / Custom Checklist</option>
+                  </select>
+                  <span class="form-error-msg" id="error-service" role="alert" aria-live="assertive"></span>
+                </div>
+
+                <!-- Home Size -->
+                <div class="form-group" id="group-home-size">
+                  <label for="contact-home-size" class="form-label">
+                    Property Size <span class="required-star" aria-hidden="true">*</span>
+                  </label>
+                  <select id="contact-home-size" name="homeSize" class="form-select" required aria-required="true">
+                    <option value="" disabled selected>Approximate home layout...</option>
+                    <option value="1-2-bed">1 - 2 Bedrooms (Apartment/Condo)</option>
+                    <option value="3-4-bed">3 - 4 Bedrooms (Single Family Home)</option>
+                    <option value="5-plus-bed">5+ Bedrooms / Multi-level Home</option>
+                    <option value="studio">Compact Studio</option>
+                  </select>
+                  <span class="form-error-msg" id="error-home-size" role="alert" aria-live="assertive"></span>
+                </div>
+              </div>
+
+              <!-- Message / Special Instructions -->
+              <div class="form-group" id="group-message">
+                <label for="contact-message" class="form-label">
+                  Specific Requirements &amp; Priorities <span class="required-star" aria-hidden="true">*</span>
+                </label>
+                <textarea id="contact-message" 
+                          name="message" 
+                          class="form-control form-textarea" 
+                          rows="4" 
+                          placeholder="Tell us about specific priority rooms, pet considerations, preferred days, or surfaces that need special attention..." 
+                          required 
+                          aria-required="true"></textarea>
+                <span class="form-error-msg" id="error-message" role="alert" aria-live="assertive"></span>
+              </div>
+
+              <!-- Submit Button -->
+              <div class="form-action">
+                <button type="submit" class="btn btn-primary btn-block btn-lg" id="submit-quote-btn">
+                  <span>Submit Estimate Request</span>
+                </button>
+              </div>
+
+              <p class="form-footnote text-center text-muted">
+                🔒 We respect your privacy. Information shared is used solely to evaluate your home cleaning estimate.
+              </p>
+            </form>
+
+            <!-- Honest Demonstration Submission Feedback Container (Hidden initially) -->
+            <div id="form-demo-feedback" class="demo-feedback-box" hidden aria-hidden="true">
+              <div class="demo-feedback-header">
+                <div class="demo-feedback-icon" aria-hidden="true">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#234E3E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="demo-feedback-title">Form Validation Passed (Portfolio Demo)</h4>
+                  <p class="demo-feedback-subtitle">Client-side validation verified all required fields successfully.</p>
+                </div>
+              </div>
+              <div class="demo-feedback-body">
+                <div class="demo-alert-notice">
+                  <p>
+                    <strong>Honest Portfolio Clarification:</strong> Because NeatNest Home Care is a frontend portfolio demonstration website without a live email server or database, <em>no real message was dispatched to any company</em>.
+                  </p>
+                  <p>
+                    In a production client launch, this form connects to a static form backend (such as Formspree, Netlify Forms, or EmailJS) or an API endpoint. Instructions are provided in <code>README.md</code>.
+                  </p>
+                </div>
+
+                <div class="captured-data-preview">
+                  <h5 class="preview-title">Input Captured by Client-side Script:</h5>
+                  <dl class="data-preview-list" id="demo-preview-data">
+                    <!-- Populated dynamically by script.js -->
+                  </dl>
+                </div>
+
+                <div class="feedback-actions">
+                  <button type="button" class="btn btn-outline btn-block" id="reset-demo-form-btn">
+                    Reset &amp; Test Again
+                  </button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer" id="footer">
+    <div class="container footer-container">
+      <div class="footer-grid">
+        <!-- Brand column -->
+        <div class="footer-col footer-col-brand">
+          <a href="#hero" class="brand-link footer-brand" aria-label="NeatNest Home Care - Home">
+            <span class="brand-icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32" width="26" height="26" fill="none">
+                <rect width="32" height="32" rx="8" fill="#FAF9F6"/>
+                <path d="M16 7L8 14V23C8 24.1 8.9 25 10 25H22C23.1 25 24 24.1 24 23V14L16 7Z" stroke="#234E3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M16 12C16 12 12 16 12 19.5C12 21.7 13.8 23.5 16 23.5C18.2 23.5 20 21.7 20 19.5C20 16 16 12 16 12Z" fill="#C49A45"/>
+              </svg>
+            </span>
+            <span class="brand-text light">
+              <span class="brand-name">NeatNest</span>
+              <span class="brand-tagline">Home Care</span>
+            </span>
+          </a>
+          <p class="footer-bio">
+            Thoughtful residential cleaning tailored for busy homeowners and families seeking a calm, dependable standard of cleanliness.
+          </p>
+          <div class="footer-badges">
+            <span class="footer-pill">Meticulous Detail</span>
+            <span class="footer-pill">Flexible Checklists</span>
+            <span class="footer-pill">Respectful Care</span>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#services">Cleaning Services</a></li>
+            <li><a href="#why-us">Our Principles</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#about">About NeatNest</a></li>
+            <li><a href="#faq">Frequently Asked Questions</a></li>
+            <li><a href="#contact">Request an Estimate</a></li>
+          </ul>
+        </div>
+
+        <!-- Services Links -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Services</h4>
+          <ul class="footer-links">
+            <li><a href="#services" class="footer-service-link" data-service="regular">Regular Housekeeping</a></li>
+            <li><a href="#services" class="footer-service-link" data-service="deep">Seasonal Deep Cleaning</a></li>
+            <li><a href="#services" class="footer-service-link" data-service="move">Move-In / Move-Out Clean</a></li>
+            <li><a href="#services" class="footer-service-link" data-service="kitchen-bath">Kitchen &amp; Bath Focus</a></li>
+            <li><a href="#contact">Custom Consultation</a></li>
+          </ul>
+        </div>
+
+        <!-- Direct Contact Placeholder -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Enquiries</h4>
+          <p class="footer-contact-text">
+            Consultations arranged for private residences Monday through Saturday.
+          </p>
+          <div class="footer-contact-item">
+            <span class="contact-muted-label">WhatsApp (Demo):</span>
+            <span class="contact-mono">+91 91XXXXXXXXXX</span>
+          </div>
+          <div class="footer-contact-item">
+            <span class="contact-muted-label">Email:</span>
+            <span>enquiries@neatnest-demo.local</span>
+          </div>
+          <a href="#contact" class="btn btn-outline-light btn-sm footer-btn">Contact Form</a>
+        </div>
+      </div>
+
+      <!-- Prominent Portfolio Demo Disclaimer -->
+      <section class="footer-disclaimer-box" id="disclaimer" aria-labelledby="disclaimer-title">
+        <h4 id="disclaimer-title" class="disclaimer-title">
+          Portfolio Demonstration &amp; Fictional Business Disclaimer
+        </h4>
+        <p class="disclaimer-text">
+          NeatNest Home Care is a fictional demonstration website designed and coded by a freelance web designer and frontend developer to showcase clean architecture, accessible components, responsive layouts, and small-business client presentation. No actual commercial cleaning services, registered legal company, booking confirmation, or operational cleaning staff exist under this brand name. All contact numbers, addresses, and form interactions are configured for portfolio testing purposes only.
+        </p>
+      </section>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom">
+        <p class="copyright-text">
+          &copy; 2026 NeatNest Home Care — Built with plain HTML5, CSS3, and Vanilla JavaScript.
+        </p>
+        <div class="footer-bottom-actions">
+          <a href="#header" class="back-to-top" id="back-to-top" aria-label="Back to top of page">
+            <span>Back to Top</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <polyline points="18 15 12 9 6 15"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Placeholder Info Modal / Dialog -->
+  <dialog class="accessible-dialog" id="whatsapp-dialog" aria-labelledby="dialog-title" aria-describedby="dialog-desc">
+    <div class="dialog-content">
+      <div class="dialog-header">
+        <div class="dialog-icon-wrap" aria-hidden="true">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#234E3E" stroke-width="2">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="12" y1="16" x2="12" y2="12"></line>
+            <line x1="12" y1="8" x2="12.01" y2="8"></line>
+          </svg>
+        </div>
+        <h3 id="dialog-title" class="dialog-title">WhatsApp Integration Demo</h3>
+        <button type="button" class="dialog-close-btn" id="dialog-close-btn" aria-label="Close dialog">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+      <div class="dialog-body" id="dialog-desc">
+        <p class="dialog-intro">
+          The WhatsApp CTA is currently configured with the sample placeholder number: <code>+91 91XXXXXXXXXX</code>.
+        </p>
+        <div class="dialog-instruction-box">
+          <h4 class="instruction-title">How to activate for a real client:</h4>
+          <ol class="instruction-list">
+            <li>Open <code>script.js</code> in your code editor.</li>
+            <li>Find the <code>SITE_CONFIG</code> object at the very top of the file.</li>
+            <li>Replace <code>whatsappNumber: '91XXXXXXXXXX'</code> with your client's valid country code and digits (e.g., <code>'919876543210'</code>).</li>
+            <li>The button will automatically launch <code>https://wa.me/</code> with a prefilled customer inquiry message!</li>
+          </ol>
+        </div>
+        <p class="dialog-subtext">
+          In the meantime, feel free to test the interactive estimate request form directly on this page.
+        </p>
+      </div>
+      <div class="dialog-footer">
+        <a href="#contact" class="btn btn-primary" id="dialog-goto-contact">Scroll to Contact Form</a>
+        <button type="button" class="btn btn-outline" id="dialog-cancel-btn">Close Notice</button>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
